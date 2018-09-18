@@ -7,6 +7,7 @@ import './style.scss';
 
 ReactDOM.render((
   <div className="site-container">
+    <h1>Boxinator</h1>
     <AddBox />
   </div>
 ), document.getElementById('root'));

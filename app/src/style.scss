@@ -2,10 +2,31 @@
 
 body {
   max-width: 100%;
-  padding: 5rem;
+  padding: 2rem 10%;
 }
 
-form {
+.block {
   display: block;
-  width: 70px;
+  width: 10rem;
+}
+
+.block__elem {
+  margin: .5rem 0;
+  width: 100%;
+}
+
+.block__elem:focus {
+  outline: none;
+}
+
+.hover-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.hover-text {
+  &:hover {
+    cursor: text;
+  }
 }
