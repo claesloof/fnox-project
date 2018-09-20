@@ -1,5 +1,6 @@
-import addBox from './reducers/addBox';
+import box from './reducers/box';
+import { combineReducers } from 'redux';
 
 export default combineReducers({
-  addBox
+  box
 });

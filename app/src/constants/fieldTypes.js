@@ -1,4 +1,3 @@
-
 export const DESTINATIONS = [
   {
     id: "sweden",
@@ -21,25 +20,3 @@ export const DESTINATIONS = [
     multiplier: 7.2
   }
 ];
-
-
-export const FIELD_DATA = {
-  nameField: {
-    id: "nameField",
-    defaultValue: "",
-
-  },
-  weightField: {
-    id: "weightField",
-    defaultValue: 0
-  },
-
-  colorField: {
-    id: "colorField",
-    defaultValue: "#ffffff"
-  },
-  destinationField: {
-    id: "destinationField",
-    defaultValue: DESTINATIONS[0].id
-  }
-};

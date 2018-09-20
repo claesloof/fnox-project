@@ -14,14 +14,18 @@
 }
 
 .add-box-form__dropdown {
-  background: #fff;
+  background: #FFF;
   border: .0675rem solid #000;
   height: 1.25rem;
 }
 
 .add-box-form__submit {
-  background: #4099ff;
+  background: #4CAF50;
   border: .0675rem solid #000;
-  color: #fff;
+  color: #FFF;
   height: 1.25rem;
+
+  &:disabled {
+    background: #777;
+  }
 }
