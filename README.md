@@ -5,6 +5,9 @@ fnox_project is a simple project for registering and fetching boxes. Built with:
 * Backend: Java REST API
 
 ## Start instructions
+```sh
+git clone https://github.com/claesloof/fnox-project.git
+```
 ### Frontend
 In fnox_project/app:
 ```sh
