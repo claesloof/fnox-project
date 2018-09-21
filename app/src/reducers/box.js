@@ -9,7 +9,7 @@ import {
 
 import {
   DESTINATIONS
-} from '../constants/fieldTypes';
+} from '../constants/destinations';
 
 const box = (state = {}, action) => {
   switch(action.type) {

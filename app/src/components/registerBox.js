@@ -5,15 +5,15 @@ import ErrorMessage from './errorMessage';
 
 import {
   DESTINATIONS,
-} from '../constants/fieldTypes';
+} from '../constants/destinations';
 
 import './registerBox.scss';
 
 const mapStateToProps = state => ({});
 
 const mapDispatchToProps = dispatch => ({
-  onRegisterBox: (name, weight, color, destination) => {
-    dispatch(register(name, weight, color, destination));
+  onRegisterBox: (name, weight, color, destination, multiplier) => {
+    dispatch(register(name, weight, color, destination, multiplier));
   }
 });
 
@@ -51,9 +51,6 @@ export class RegisterBox extends React.Component {
     const nameOfField = e.target.name;
     const valueOfField = e.target.value;
 
-    // this.setState({
-    //   [nameOfField]: {...this.state[nameOfField], value: valueOfField}
-    // }, () => this.validate(nameOfField, valueOfField));
     this.validate(nameOfField, valueOfField);
   }
 
@@ -106,7 +103,7 @@ export class RegisterBox extends React.Component {
     const name = this.state.nameField.value;
     const weight = parseFloat(this.state.weightField.value);
     const color = this.state.colorField.value;
-    const destination = DESTINATIONS.find(el => el.id === destination);
+    const destination = DESTINATIONS.find(el => el.id === this.state.destinationField.value);
 
     this.props.onRegisterBox(name, weight, color, destination.id, destination.multiplier);
   }

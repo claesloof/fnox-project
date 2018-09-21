@@ -66,6 +66,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<finalName>${project.artifactId}</finalName>
+					<layout>JAR</layout>
+					<executable>true</executable>
+					<mainClass>boxinator.rest.service.Application</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

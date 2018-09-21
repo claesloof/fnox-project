@@ -9,8 +9,6 @@ import {
   REGISTER_BOX_FAILURE
 } from '../constants/actionTypes';
 
-import { DESTINATIONS } from '../constants/fieldTypes';
-
 const API_ROOT = 'http://localhost:8080';
 
 export function register(name, weight, color, destination, multiplier) {
