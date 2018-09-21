@@ -2,7 +2,7 @@
 
 fnox_project is a simple project for registering and fetching boxes. Built with:
 * Frontend: React + Redux
-* Backend: Java REST API
+* Backend: Java REST API, Maven + Spring boot
 
 ## Start instructions
 ```sh
@@ -27,6 +27,11 @@ In fnox_projet/backend:
 mvn spring-boot:run
 ```
 Rest API available at http://localhost:8080/.
+
+To run tests:
+```sh
+mvn test -Dtest=boxinator.rest.service.ApplicationTests
+```
 
 #### Database
 Create a database called boxes_db and import box.sql
