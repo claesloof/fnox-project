@@ -27,14 +27,7 @@ public class BoxResource {
 
     @CrossOrigin
     @PostMapping("/boxes")
-    public ResponseEntity<Object> createBox(@RequestBody Box box) {
-        System.out.println("Received post request");
-        Box savedBox = boxRepository.save(box);
-
-        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
-                .buildAndExpand(savedBox.getId()).toUri();
-
-        return ResponseEntity.created(location).build();
-
+    public Box createBox(@RequestBody Box box) {
+        return boxRepository.save(box);
     }
 }

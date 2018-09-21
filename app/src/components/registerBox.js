@@ -3,9 +3,6 @@ import { connect } from 'react-redux';
 import { register } from '../actions/box';
 
 import {
-  REGISTER_BOX_REQUEST,
-} from '../constants/actionTypes';
-import {
   DESTINATIONS,
 } from '../constants/fieldTypes';
 
@@ -14,15 +11,12 @@ import './registerBox.scss';
 const mapStateToProps = state => ({});
 
 const mapDispatchToProps = dispatch => ({
-  onRegisterBoxRequest: () => {
-    dispatch({type: REGISTER_BOX_REQUEST});
-  },
   onRegisterBox: (name, weight, color, destination) => {
     dispatch(register(name, weight, color, destination));
   }
 });
 
-class RegisterBox extends React.Component {
+export class RegisterBox extends React.Component {
 
   defaultInternalState = {
     nameField: {
@@ -57,34 +51,34 @@ class RegisterBox extends React.Component {
     }, () => this.validate(nameOfField, valueOfField));
   }
 
-  validate(nameOfField, valueOfField) {
+  validate(name, value) {
     let isValidated = false;
 
-    switch(nameOfField) {
+    switch(name) {
       case "nameField":
         // Name must be of non-zero length
-        isValidated = valueOfField.length > 0;
+        isValidated = value.length > 0;
         break;
       case "weightField":
-        // Weight > 0
-        isValidated = valueOfField > 0;
+        // Weight > 0 and is a number
+        isValidated = value > 0 && !isNaN(value);
         break;
       case "colorField":
         // Regex for color hex code - Has to conform to #nn0 or #nnnn00, where n is [0-9a-fA-F]
         // Not sure about what counts as "any shade of blue", so banned all colors containing a hint of blue
         const regExp = RegExp('^#(?:[0-9a-fA-F]{4})([0]{2})|(?:[0-9a-fA-F]{2})([0]{1})$');
-        isValidated = regExp.test(valueOfField);
+        isValidated = regExp.test(value);
         break;
       case "destinationField":
         // Just incase someone modifies HTML code and tries to send invalid destination - might be a non-problem
-        isValidated = DESTINATIONS.some(e => e.id === valueOfField);
+        isValidated = DESTINATIONS.some(e => e.id === value);
         break;
       default:
         // No need to do anything
     }
 
     this.setState({
-      [nameOfField]: {...this.state[nameOfField], validated: isValidated}
+      [name]: {...this.state[name], validated: isValidated}
     });
   }
 
@@ -94,10 +88,9 @@ class RegisterBox extends React.Component {
     const name = this.state.nameField.value;
     const weight = parseFloat(this.state.weightField.value);
     const color = this.state.colorField.value;
-    const destination = this.state.destinationField.value;
+    const destination = DESTINATIONS.find(el => el.id === destination);
 
-    this.props.onRegisterBoxRequest();
-    this.props.onRegisterBox(name, weight, color, destination);
+    this.props.onRegisterBox(name, weight, color, destination.id, destination.multiplier);
   }
 
   render = () => {

@@ -2,10 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { fetch } from './../actions/box';
 
-import {
-  FETCH_BOXES_REQUEST
-} from './../constants/actionTypes';
-
 import './dispatchList.scss';
 
 const mapStateToProps = state => ({
@@ -13,18 +9,14 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  onFetchBoxesRequest: () => {
-    dispatch({type: FETCH_BOXES_REQUEST});
-  },
   onFetchBoxes: () => {
     dispatch(fetch());
   }
 });
 
-class DispatchList extends React.Component {
+export class DispatchList extends React.Component {
 
   componentDidMount() {
-    this.props.onFetchBoxesRequest();
     this.props.onFetchBoxes();
   }
 
@@ -34,7 +26,7 @@ class DispatchList extends React.Component {
     if(this.props.boxes !== undefined && this.props.boxes.length > 0) {
       boxes = this.props.boxes.map(box =>
         (
-          <tr key={box.id}>
+          <tr className="box-table__item" key={box.id}>
             <td>{box.name}</td>
             <td>{box.weight}</td>
             <td style={{backgroundColor: box.color}}></td>
@@ -48,7 +40,7 @@ class DispatchList extends React.Component {
 
 
     return (
-      <table>
+      <table className="box-table">
         <thead>
           <tr>
             <th>Receiver</th>

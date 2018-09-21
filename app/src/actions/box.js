@@ -1,8 +1,10 @@
 import axios from 'axios';
 
 import {
+  FETCH_BOXES_REQUEST,
   FETCH_BOXES_SUCCESS,
   FETCH_BOXES_FAILURE,
+  REGISTER_BOX_REQUEST,
   REGISTER_BOX_SUCCESS,
   REGISTER_BOX_FAILURE
 } from '../constants/actionTypes';
@@ -11,11 +13,8 @@ import { DESTINATIONS } from '../constants/fieldTypes';
 
 const API_ROOT = 'http://localhost:8080';
 
-const shippingCost = (weight, multiplier) => (weight*multiplier);
-const multiplier = (destination) => (DESTINATIONS.find(el => el.id === destination).multiplier)
-
-export function register(name, weight, color, destination) {
-  const cost = shippingCost(weight, multiplier(destination));
+export function register(name, weight, color, destination, multiplier) {
+  const cost = weight * multiplier;
   const data = {
     name: name,
     weight: weight,
@@ -24,10 +23,9 @@ export function register(name, weight, color, destination) {
     cost: cost
   }
 
-  console.log("COST IS: " + cost);
-
   return dispatch => {
-    axios({
+    dispatch({type: REGISTER_BOX_REQUEST});
+    return axios({
       method: 'POST',
       url: API_ROOT + '/boxes',
       data: data,
@@ -44,7 +42,8 @@ export function register(name, weight, color, destination) {
 
 export function fetch() {
   return dispatch => {
-    axios({
+    dispatch({type: FETCH_BOXES_REQUEST});
+    return axios({
       method: 'GET',
       url: API_ROOT + '/boxes'
     }).then(response => {
