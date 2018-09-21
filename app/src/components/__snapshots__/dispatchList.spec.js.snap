@@ -1,0 +1,3163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DispatchList should render correctly 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <DispatchList
+    onFetchBoxes={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": DispatchList {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 50,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": [Circular],
+          "index": 0,
+          "key": null,
+          "lastEffect": [Circular],
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "memoizedState": Object {
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "mount": true,
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <table
+                                    class="box-table"
+                  >
+                                    <thead>
+                                                      <tr>
+                                                                        <th>
+                                                                                          Receiver
+                                                                        </th>
+                                                                        <th>
+                                                                                          Weight
+                                                                        </th>
+                                                                        <th>
+                                                                                          Box Color
+                                                                        </th>
+                                                                        <th>
+                                                                                          Shipping Cost
+                                                                        </th>
+                                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                                      <tr />
+                                    </tbody>
+                  </table>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={
+                                            Object {
+                                                                  "store": Object {
+                                                                    "clearActions": [Function],
+                                                                    "dispatch": [Function],
+                                                                    "getActions": [Function],
+                                                                    "getState": [Function],
+                                                                    "replaceReducer": [Function],
+                                                                    "subscribe": [Function],
+                                                                  },
+                                                                }
+                      }
+                      props={
+                                            Object {
+                                                                  "onFetchBoxes": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={
+                                            Object {
+                                                                  "store": Object {
+                                                                    "clearActions": [Function],
+                                                                    "dispatch": [Function],
+                                                                    "getActions": [Function],
+                                                                    "getState": [Function],
+                                                                    "replaceReducer": [Function],
+                                                                    "subscribe": [Function],
+                                                                  },
+                                                                }
+                      }
+                      props={
+                                            Object {
+                                                                  "onFetchBoxes": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={
+                                Object {
+                                                "store": Object {
+                                                  "clearActions": [Function],
+                                                  "dispatch": [Function],
+                                                  "getActions": [Function],
+                                                  "getState": [Function],
+                                                  "replaceReducer": [Function],
+                                                  "subscribe": [Function],
+                                                },
+                                              }
+                }
+                props={
+                                Object {
+                                                "onFetchBoxes": [Function],
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <table
+                                class="box-table"
+                >
+                                <thead>
+                                                <tr>
+                                                                <th>
+                                                                                Receiver
+                                                                </th>
+                                                                <th>
+                                                                                Weight
+                                                                </th>
+                                                                <th>
+                                                                                Box Color
+                                                                </th>
+                                                                <th>
+                                                                                Shipping Cost
+                                                                </th>
+                                                </tr>
+                                </thead>
+                                <tbody>
+                                                <tr />
+                                </tbody>
+                </table>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={
+                                    Object {
+                                                      "store": Object {
+                                                        "clearActions": [Function],
+                                                        "dispatch": [Function],
+                                                        "getActions": [Function],
+                                                        "getState": [Function],
+                                                        "replaceReducer": [Function],
+                                                        "subscribe": [Function],
+                                                      },
+                                                    }
+                  }
+                  props={
+                                    Object {
+                                                      "onFetchBoxes": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "mount": true,
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+            "lineNumber": 43,
+          },
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+              "lineNumber": 44,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 54,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                "lineNumber": 45,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 55,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                  "lineNumber": 46,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Receiver",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Receiver",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 56,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                    "lineNumber": 47,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Weight",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Weight",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 57,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                      "lineNumber": 48,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Box Color",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Box Color",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 58,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                        "lineNumber": 49,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 3,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Shipping Cost",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Shipping Cost",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <th>
+                        Shipping Cost
+</th>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "th",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <th>
+                      Box Color
+</th>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "th",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <th>
+                    Weight
+</th>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "th",
+                  "updateQueue": null,
+                },
+                "stateNode": <th>
+                  Receiver
+</th>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "th",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <th>
+                    Receiver
+</th>,
+                  <th>
+                    Weight
+</th>,
+                  <th>
+                    Box Color
+</th>,
+                  <th>
+                    Shipping Cost
+</th>,
+                ],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <th>
+                    Receiver
+</th>,
+                  <th>
+                    Weight
+</th>,
+                  <th>
+                    Box Color
+</th>,
+                  <th>
+                    Shipping Cost
+</th>,
+                ],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <tr>
+                <th>
+                                Receiver
+                </th>
+                <th>
+                                Weight
+                </th>
+                <th>
+                                Box Color
+                </th>
+                <th>
+                                Shipping Cost
+                </th>
+</tr>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "tr",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <tr>
+                <th>
+                                Receiver
+                </th>
+                <th>
+                                Weight
+                </th>
+                <th>
+                                Box Color
+                </th>
+                <th>
+                                Shipping Cost
+                </th>
+</tr>,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <tr>
+                <th>
+                                Receiver
+                </th>
+                <th>
+                                Weight
+                </th>
+                <th>
+                                Box Color
+                </th>
+                <th>
+                                Shipping Cost
+                </th>
+</tr>,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                "lineNumber": 52,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 59,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                  "lineNumber": 38,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {},
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {},
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <tr />,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "tr",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <tr />,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <tr />,
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <tbody>
+                <tr />
+</tbody>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "tbody",
+              "updateQueue": null,
+            },
+            "stateNode": <thead>
+              <tr>
+                            <th>
+                                          Receiver
+                            </th>
+                            <th>
+                                          Weight
+                            </th>
+                            <th>
+                                          Box Color
+                            </th>
+                            <th>
+                                          Shipping Cost
+                            </th>
+              </tr>
+</thead>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "thead",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                                <th>
+                                                Receiver
+                                </th>
+                                <th>
+                                                Weight
+                                </th>
+                                <th>
+                                                Box Color
+                                </th>
+                                <th>
+                                                Shipping Cost
+                                </th>
+                </tr>
+</thead>,
+              <tbody>
+                <tr />
+</tbody>,
+            ],
+            "className": "box-table",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                                <th>
+                                                Receiver
+                                </th>
+                                <th>
+                                                Weight
+                                </th>
+                                <th>
+                                                Box Color
+                                </th>
+                                <th>
+                                                Shipping Cost
+                                </th>
+                </tr>
+</thead>,
+              <tbody>
+                <tr />
+</tbody>,
+            ],
+            "className": "box-table",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <table
+            class="box-table"
+>
+            <thead>
+                        <tr>
+                                    <th>
+                                                Receiver
+                                    </th>
+                                    <th>
+                                                Weight
+                                    </th>
+                                    <th>
+                                                Box Color
+                                    </th>
+                                    <th>
+                                                Shipping Cost
+                                    </th>
+                        </tr>
+            </thead>
+            <tbody>
+                        <tr />
+            </tbody>
+</table>,
+          "tag": 7,
+          "treeBaseDuration": 0,
+          "type": "table",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 5,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "onFetchBoxes": [Function],
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "onFetchBoxes": [Function],
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": [Circular],
+          "index": 0,
+          "key": null,
+          "lastEffect": [Circular],
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "memoizedState": Object {
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "mount": true,
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": Object {
+              "store": Object {
+                "clearActions": [Function],
+                "dispatch": [Function],
+                "getActions": [Function],
+                "getState": [Function],
+                "replaceReducer": [Function],
+                "subscribe": [Function],
+              },
+            },
+            "props": Object {
+              "onFetchBoxes": [Function],
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <table
+                                    class="box-table"
+                  >
+                                    <thead>
+                                                      <tr>
+                                                                        <th>
+                                                                                          Receiver
+                                                                        </th>
+                                                                        <th>
+                                                                                          Weight
+                                                                        </th>
+                                                                        <th>
+                                                                                          Box Color
+                                                                        </th>
+                                                                        <th>
+                                                                                          Shipping Cost
+                                                                        </th>
+                                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                                      <tr />
+                                    </tbody>
+                  </table>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={
+                                            Object {
+                                                                  "store": Object {
+                                                                    "clearActions": [Function],
+                                                                    "dispatch": [Function],
+                                                                    "getActions": [Function],
+                                                                    "getState": [Function],
+                                                                    "replaceReducer": [Function],
+                                                                    "subscribe": [Function],
+                                                                  },
+                                                                }
+                      }
+                      props={
+                                            Object {
+                                                                  "onFetchBoxes": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={
+                                            Object {
+                                                                  "store": Object {
+                                                                    "clearActions": [Function],
+                                                                    "dispatch": [Function],
+                                                                    "getActions": [Function],
+                                                                    "getState": [Function],
+                                                                    "replaceReducer": [Function],
+                                                                    "subscribe": [Function],
+                                                                  },
+                                                                }
+                      }
+                      props={
+                                            Object {
+                                                                  "onFetchBoxes": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={
+                                Object {
+                                                "store": Object {
+                                                  "clearActions": [Function],
+                                                  "dispatch": [Function],
+                                                  "getActions": [Function],
+                                                  "getState": [Function],
+                                                  "replaceReducer": [Function],
+                                                  "subscribe": [Function],
+                                                },
+                                              }
+                }
+                props={
+                                Object {
+                                                "onFetchBoxes": [Function],
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <table
+                                class="box-table"
+                >
+                                <thead>
+                                                <tr>
+                                                                <th>
+                                                                                Receiver
+                                                                </th>
+                                                                <th>
+                                                                                Weight
+                                                                </th>
+                                                                <th>
+                                                                                Box Color
+                                                                </th>
+                                                                <th>
+                                                                                Shipping Cost
+                                                                </th>
+                                                </tr>
+                                </thead>
+                                <tbody>
+                                                <tr />
+                                </tbody>
+                </table>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={
+                                    Object {
+                                                      "store": Object {
+                                                        "clearActions": [Function],
+                                                        "dispatch": [Function],
+                                                        "getActions": [Function],
+                                                        "getState": [Function],
+                                                        "replaceReducer": [Function],
+                                                        "subscribe": [Function],
+                                                      },
+                                                    }
+                  }
+                  props={
+                                    Object {
+                                                      "onFetchBoxes": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "mount": true,
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "props": Object {
+        "onFetchBoxes": [Function],
+      },
+      "refs": Object {},
+      "render": [Function],
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "onFetchBoxes": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <table
+        class="box-table"
+>
+        <thead>
+                <tr>
+                        <th>
+                                Receiver
+                        </th>
+                        <th>
+                                Weight
+                        </th>
+                        <th>
+                                Box Color
+                        </th>
+                        <th>
+                                Shipping Cost
+                        </th>
+                </tr>
+        </thead>
+        <tbody>
+                <tr />
+        </tbody>
+</table>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+                        <th>
+                                    Receiver
+                        </th>
+                        <th>
+                                    Weight
+                        </th>
+                        <th>
+                                    Box Color
+                        </th>
+                        <th>
+                                    Shipping Cost
+                        </th>
+            </tr>
+</thead>,
+          <tbody>
+            <tr />
+</tbody>,
+        ],
+        "className": "box-table",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <thead>
+            <tr>
+                        <th>
+                                    Receiver
+                        </th>
+                        <th>
+                                    Weight
+                        </th>
+                        <th>
+                                    Box Color
+                        </th>
+                        <th>
+                                    Shipping Cost
+                        </th>
+            </tr>
+</thead>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <th>
+                            Receiver
+              </th>
+              <th>
+                            Weight
+              </th>
+              <th>
+                            Box Color
+              </th>
+              <th>
+                            Shipping Cost
+              </th>
+</tr>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <tr>
+                <th>
+                                Receiver
+                </th>
+                <th>
+                                Weight
+                </th>
+                <th>
+                                Box Color
+                </th>
+                <th>
+                                Shipping Cost
+                </th>
+</tr>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    Receiver
+</th>,
+                  <th>
+                    Weight
+</th>,
+                  <th>
+                    Box Color
+</th>,
+                  <th>
+                    Shipping Cost
+</th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <th>
+                    Receiver
+</th>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Receiver",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Receiver",
+                  ],
+                  "type": "th",
+                },
+                Object {
+                  "instance": <th>
+                    Weight
+</th>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Weight",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Weight",
+                  ],
+                  "type": "th",
+                },
+                Object {
+                  "instance": <th>
+                    Box Color
+</th>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Box Color",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Box Color",
+                  ],
+                  "type": "th",
+                },
+                Object {
+                  "instance": <th>
+                    Shipping Cost
+</th>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Shipping Cost",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Shipping Cost",
+                  ],
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "thead",
+        },
+        Object {
+          "instance": <tbody>
+            <tr />
+</tbody>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr />,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <tr />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": DispatchList {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 50,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "memoizedState": Object {
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "mount": true,
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <table
+                                        class="box-table"
+                    >
+                                        <thead>
+                                                            <tr>
+                                                                                <th>
+                                                                                                    Receiver
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Weight
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Box Color
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Shipping Cost
+                                                                                </th>
+                                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                            <tr />
+                                        </tbody>
+                    </table>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={
+                                                Object {
+                                                                        "store": Object {
+                                                                          "clearActions": [Function],
+                                                                          "dispatch": [Function],
+                                                                          "getActions": [Function],
+                                                                          "getState": [Function],
+                                                                          "replaceReducer": [Function],
+                                                                          "subscribe": [Function],
+                                                                        },
+                                                                      }
+                        }
+                        props={
+                                                Object {
+                                                                        "onFetchBoxes": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={
+                                                Object {
+                                                                        "store": Object {
+                                                                          "clearActions": [Function],
+                                                                          "dispatch": [Function],
+                                                                          "getActions": [Function],
+                                                                          "getState": [Function],
+                                                                          "replaceReducer": [Function],
+                                                                          "subscribe": [Function],
+                                                                        },
+                                                                      }
+                        }
+                        props={
+                                                Object {
+                                                                        "onFetchBoxes": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={
+                                    Object {
+                                                      "store": Object {
+                                                        "clearActions": [Function],
+                                                        "dispatch": [Function],
+                                                        "getActions": [Function],
+                                                        "getState": [Function],
+                                                        "replaceReducer": [Function],
+                                                        "subscribe": [Function],
+                                                      },
+                                                    }
+                  }
+                  props={
+                                    Object {
+                                                      "onFetchBoxes": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <table
+                                    class="box-table"
+                  >
+                                    <thead>
+                                                      <tr>
+                                                                        <th>
+                                                                                          Receiver
+                                                                        </th>
+                                                                        <th>
+                                                                                          Weight
+                                                                        </th>
+                                                                        <th>
+                                                                                          Box Color
+                                                                        </th>
+                                                                        <th>
+                                                                                          Shipping Cost
+                                                                        </th>
+                                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                                      <tr />
+                                    </tbody>
+                  </table>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={
+                                        Object {
+                                                            "store": Object {
+                                                              "clearActions": [Function],
+                                                              "dispatch": [Function],
+                                                              "getActions": [Function],
+                                                              "getState": [Function],
+                                                              "replaceReducer": [Function],
+                                                              "subscribe": [Function],
+                                                            },
+                                                          }
+                    }
+                    props={
+                                        Object {
+                                                            "onFetchBoxes": [Function],
+                                                          }
+                    }
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": Object {
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                },
+                "props": Object {
+                  "onFetchBoxes": [Function],
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": Object {
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                },
+                "mount": true,
+                "props": Object {
+                  "onFetchBoxes": [Function],
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+              "lineNumber": 43,
+            },
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                "lineNumber": 44,
+              },
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                  "lineNumber": 45,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                    "lineNumber": 46,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Receiver",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Receiver",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 56,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": Object {
+                      "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                      "lineNumber": 47,
+                    },
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Weight",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Weight",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 57,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": Object {
+                        "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                        "lineNumber": 48,
+                      },
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Box Color",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Box Color",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 58,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": Object {
+                          "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                          "lineNumber": 49,
+                        },
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Shipping Cost",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Shipping Cost",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <th>
+                          Shipping Cost
+</th>,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "th",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <th>
+                        Box Color
+</th>,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "th",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <th>
+                      Weight
+</th>,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "th",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <th>
+                    Receiver
+</th>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "th",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <th>
+                      Receiver
+</th>,
+                    <th>
+                      Weight
+</th>,
+                    <th>
+                      Box Color
+</th>,
+                    <th>
+                      Shipping Cost
+</th>,
+                  ],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <th>
+                      Receiver
+</th>,
+                    <th>
+                      Weight
+</th>,
+                    <th>
+                      Box Color
+</th>,
+                    <th>
+                      Shipping Cost
+</th>,
+                  ],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <tr>
+                  <th>
+                                    Receiver
+                  </th>
+                  <th>
+                                    Weight
+                  </th>
+                  <th>
+                                    Box Color
+                  </th>
+                  <th>
+                                    Shipping Cost
+                  </th>
+</tr>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "tr",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <tr>
+                  <th>
+                                    Receiver
+                  </th>
+                  <th>
+                                    Weight
+                  </th>
+                  <th>
+                                    Box Color
+                  </th>
+                  <th>
+                                    Shipping Cost
+                  </th>
+</tr>,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <tr>
+                  <th>
+                                    Receiver
+                  </th>
+                  <th>
+                                    Weight
+                  </th>
+                  <th>
+                                    Box Color
+                  </th>
+                  <th>
+                                    Shipping Cost
+                  </th>
+</tr>,
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                  "lineNumber": 52,
+                },
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 59,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/claesloof/Projects/fnox-project/app/src/components/DispatchList.js",
+                    "lineNumber": 38,
+                  },
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {},
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {},
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <tr />,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "tr",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <tr />,
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <tr />,
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <tbody>
+                  <tr />
+</tbody>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "tbody",
+                "updateQueue": null,
+              },
+              "stateNode": <thead>
+                <tr>
+                                <th>
+                                                Receiver
+                                </th>
+                                <th>
+                                                Weight
+                                </th>
+                                <th>
+                                                Box Color
+                                </th>
+                                <th>
+                                                Shipping Cost
+                                </th>
+                </tr>
+</thead>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "thead",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <thead>
+                  <tr>
+                                    <th>
+                                                      Receiver
+                                    </th>
+                                    <th>
+                                                      Weight
+                                    </th>
+                                    <th>
+                                                      Box Color
+                                    </th>
+                                    <th>
+                                                      Shipping Cost
+                                    </th>
+                  </tr>
+</thead>,
+                <tbody>
+                  <tr />
+</tbody>,
+              ],
+              "className": "box-table",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <thead>
+                  <tr>
+                                    <th>
+                                                      Receiver
+                                    </th>
+                                    <th>
+                                                      Weight
+                                    </th>
+                                    <th>
+                                                      Box Color
+                                    </th>
+                                    <th>
+                                                      Shipping Cost
+                                    </th>
+                  </tr>
+</thead>,
+                <tbody>
+                  <tr />
+</tbody>,
+              ],
+              "className": "box-table",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <table
+              class="box-table"
+>
+              <thead>
+                            <tr>
+                                          <th>
+                                                        Receiver
+                                          </th>
+                                          <th>
+                                                        Weight
+                                          </th>
+                                          <th>
+                                                        Box Color
+                                          </th>
+                                          <th>
+                                                        Shipping Cost
+                                          </th>
+                            </tr>
+              </thead>
+              <tbody>
+                            <tr />
+              </tbody>
+</table>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "table",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 5,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "onFetchBoxes": [Function],
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "onFetchBoxes": [Function],
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "memoizedState": Object {
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "mount": true,
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": Object {
+                "store": Object {
+                  "clearActions": [Function],
+                  "dispatch": [Function],
+                  "getActions": [Function],
+                  "getState": [Function],
+                  "replaceReducer": [Function],
+                  "subscribe": [Function],
+                },
+              },
+              "props": Object {
+                "onFetchBoxes": [Function],
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <table
+                                        class="box-table"
+                    >
+                                        <thead>
+                                                            <tr>
+                                                                                <th>
+                                                                                                    Receiver
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Weight
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Box Color
+                                                                                </th>
+                                                                                <th>
+                                                                                                    Shipping Cost
+                                                                                </th>
+                                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                            <tr />
+                                        </tbody>
+                    </table>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={
+                                                Object {
+                                                                        "store": Object {
+                                                                          "clearActions": [Function],
+                                                                          "dispatch": [Function],
+                                                                          "getActions": [Function],
+                                                                          "getState": [Function],
+                                                                          "replaceReducer": [Function],
+                                                                          "subscribe": [Function],
+                                                                        },
+                                                                      }
+                        }
+                        props={
+                                                Object {
+                                                                        "onFetchBoxes": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={
+                                                Object {
+                                                                        "store": Object {
+                                                                          "clearActions": [Function],
+                                                                          "dispatch": [Function],
+                                                                          "getActions": [Function],
+                                                                          "getState": [Function],
+                                                                          "replaceReducer": [Function],
+                                                                          "subscribe": [Function],
+                                                                        },
+                                                                      }
+                        }
+                        props={
+                                                Object {
+                                                                        "onFetchBoxes": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={
+                                    Object {
+                                                      "store": Object {
+                                                        "clearActions": [Function],
+                                                        "dispatch": [Function],
+                                                        "getActions": [Function],
+                                                        "getState": [Function],
+                                                        "replaceReducer": [Function],
+                                                        "subscribe": [Function],
+                                                      },
+                                                    }
+                  }
+                  props={
+                                    Object {
+                                                      "onFetchBoxes": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <table
+                                    class="box-table"
+                  >
+                                    <thead>
+                                                      <tr>
+                                                                        <th>
+                                                                                          Receiver
+                                                                        </th>
+                                                                        <th>
+                                                                                          Weight
+                                                                        </th>
+                                                                        <th>
+                                                                                          Box Color
+                                                                        </th>
+                                                                        <th>
+                                                                                          Shipping Cost
+                                                                        </th>
+                                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                                      <tr />
+                                    </tbody>
+                  </table>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={
+                                        Object {
+                                                            "store": Object {
+                                                              "clearActions": [Function],
+                                                              "dispatch": [Function],
+                                                              "getActions": [Function],
+                                                              "getState": [Function],
+                                                              "replaceReducer": [Function],
+                                                              "subscribe": [Function],
+                                                            },
+                                                          }
+                    }
+                    props={
+                                        Object {
+                                                            "onFetchBoxes": [Function],
+                                                          }
+                    }
+/>,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": Object {
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                },
+                "props": Object {
+                  "onFetchBoxes": [Function],
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": Object {
+                  "store": Object {
+                    "clearActions": [Function],
+                    "dispatch": [Function],
+                    "getActions": [Function],
+                    "getState": [Function],
+                    "replaceReducer": [Function],
+                    "subscribe": [Function],
+                  },
+                },
+                "mount": true,
+                "props": Object {
+                  "onFetchBoxes": [Function],
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "props": Object {
+          "onFetchBoxes": [Function],
+        },
+        "refs": Object {},
+        "render": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "onFetchBoxes": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <table
+          class="box-table"
+>
+          <thead>
+                    <tr>
+                              <th>
+                                        Receiver
+                              </th>
+                              <th>
+                                        Weight
+                              </th>
+                              <th>
+                                        Box Color
+                              </th>
+                              <th>
+                                        Shipping Cost
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <tr />
+          </tbody>
+</table>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead>
+              <tr>
+                            <th>
+                                          Receiver
+                            </th>
+                            <th>
+                                          Weight
+                            </th>
+                            <th>
+                                          Box Color
+                            </th>
+                            <th>
+                                          Shipping Cost
+                            </th>
+              </tr>
+</thead>,
+            <tbody>
+              <tr />
+</tbody>,
+          ],
+          "className": "box-table",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <thead>
+              <tr>
+                            <th>
+                                          Receiver
+                            </th>
+                            <th>
+                                          Weight
+                            </th>
+                            <th>
+                                          Box Color
+                            </th>
+                            <th>
+                                          Shipping Cost
+                            </th>
+              </tr>
+</thead>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th>
+                                Receiver
+                </th>
+                <th>
+                                Weight
+                </th>
+                <th>
+                                Box Color
+                </th>
+                <th>
+                                Shipping Cost
+                </th>
+</tr>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <tr>
+                  <th>
+                                    Receiver
+                  </th>
+                  <th>
+                                    Weight
+                  </th>
+                  <th>
+                                    Box Color
+                  </th>
+                  <th>
+                                    Shipping Cost
+                  </th>
+</tr>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      Receiver
+</th>,
+                    <th>
+                      Weight
+</th>,
+                    <th>
+                      Box Color
+</th>,
+                    <th>
+                      Shipping Cost
+</th>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <th>
+                      Receiver
+</th>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Receiver",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Receiver",
+                    ],
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": <th>
+                      Weight
+</th>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Weight",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Weight",
+                    ],
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": <th>
+                      Box Color
+</th>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Box Color",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Box Color",
+                    ],
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": <th>
+                      Shipping Cost
+</th>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Shipping Cost",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Shipping Cost",
+                    ],
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+            ],
+            "type": "thead",
+          },
+          Object {
+            "instance": <tbody>
+              <tr />
+</tbody>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr />,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <tr />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "tr",
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "context": Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { register } from '../actions/box';
+import ErrorMessage from './errorMessage';
 
 import {
   DESTINATIONS,
@@ -21,19 +22,23 @@ export class RegisterBox extends React.Component {
   defaultInternalState = {
     nameField: {
       value: "",
-      validated: false
+      validated: false,
+      visited: false
     },
     weightField: {
       value: 0,
-      validated: false
+      validated: false,
+      visited: false
     },
     colorField: {
       value: "#ffff00",
-      validated: true
+      validated: true,
+      visited: false
     },
     destinationField: {
       value: "sweden",
-      validated: true
+      validated: true,
+      visited: false
     }
   };
 
@@ -46,9 +51,19 @@ export class RegisterBox extends React.Component {
     const nameOfField = e.target.name;
     const valueOfField = e.target.value;
 
+    // this.setState({
+    //   [nameOfField]: {...this.state[nameOfField], value: valueOfField}
+    // }, () => this.validate(nameOfField, valueOfField));
+    this.validate(nameOfField, valueOfField);
+  }
+
+  handleBlur(e) {
+    const nameOfField = e.target.name;
+    const valueOfField = e.target.value;
+
     this.setState({
-      [nameOfField]: {...this.state[nameOfField], value: valueOfField}
-    }, () => this.validate(nameOfField, valueOfField));
+      [nameOfField]: {...this.state[nameOfField], visited: true}
+    });
   }
 
   validate(name, value) {
@@ -62,6 +77,9 @@ export class RegisterBox extends React.Component {
       case "weightField":
         // Weight > 0 and is a number
         isValidated = value > 0 && !isNaN(value);
+        if (value < 0 || isNaN(value)) {
+          value = 0;
+        }
         break;
       case "colorField":
         // Regex for color hex code - Has to conform to #nn0 or #nnnn00, where n is [0-9a-fA-F]
@@ -78,7 +96,7 @@ export class RegisterBox extends React.Component {
     }
 
     this.setState({
-      [name]: {...this.state[name], validated: isValidated}
+      [name]: {...this.state[name], value: value, validated: isValidated}
     });
   }
 
@@ -104,26 +122,39 @@ export class RegisterBox extends React.Component {
     return (
       <div className="block">
         <form className="add-box-form" onSubmit={(event) => this.save(event)}>
+          {/* Name field */}
           <label className="block__elem add-box-form__label">Name</label>
           <input className="block__elem add-box-form__text hover-text" name="nameField"
-            value={nameField.value} type="text" onChange={(event) => this.handleChange(event)}/>
+            value={nameField.value} onBlur={(event) => this.handleBlur(event)} type="text" onChange={(event) => this.handleChange(event)}/>
+          <ErrorMessage validated={nameField.validated} visited={nameField.visited}
+            message="Name can't be empty" />
 
+          {/* Weight field */}
           <label className="block__elem add-box-form__label">Weight</label>
           <input className="block__elem add-box-form__text hover-text" name="weightField"
-            value={weightField.value} type="text" onChange={(event) => this.handleChange(event)}/>
+            value={weightField.value} onBlur={(event) => this.handleBlur(event)} type="text" onChange={(event) => this.handleChange(event)}/>
+          <ErrorMessage validated={weightField.validated} visited={weightField.visited}
+            message="Weight must be a number and larger than 0" />
 
+          {/* Color field */}
           <label className="block__elem add-box-form__label">Box Color</label>
           <input className="block__elem add-box-form__color hover-pointer" name="colorField"
-            value={colorField.value} type="color" onChange={(event) => this.handleChange(event)}/>
+            value={colorField.value} onBlur={(event) => this.handleBlur(event)} type="color" onChange={(event) => this.handleChange(event)}/>
+          <ErrorMessage validated={colorField.validated} visited={colorField.visited}
+            message="Color can't be any shade of blue. Any. Shade. Of. Blue." />
 
+          {/* Destination field */}
           <label className="block__elem add-box-form__label">Destination Country</label>
           <select className="block__elem add-box-form__dropdown hover-pointer" name="destinationField"
-            value={destinationField.value} onChange={(event) => this.handleChange(event)}>
+            value={destinationField.value} onBlur={(event) => this.handleBlur(event)} onChange={(event) => this.handleChange(event)}>
             {
               DESTINATIONS.map(destination => (<option className="" value={destination.id} key={destination.id}>{destination.label}</option>))
             }
           </select>
+          <ErrorMessage validated={destinationField.validated} visited={destinationField.visited}
+            message="Stop tinkering with HTML code and set correct destination" />
 
+          {/* Submit button */}
           <input className="block__elem add-box-form__submit hover-pointer" type="submit"
             value="SAVE" disabled={!validated}  />
         </form>

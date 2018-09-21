@@ -29,9 +29,15 @@ ShallowWrapper {
         <input
                 className="block__elem add-box-form__text hover-text"
                 name="nameField"
+                onBlur={[Function]}
                 onChange={[Function]}
                 type="text"
                 value=""
+        />
+        <ErrorMessage
+                message="Name can't be empty"
+                validated={false}
+                visited={false}
         />
         <label
                 className="block__elem add-box-form__label"
@@ -41,9 +47,15 @@ ShallowWrapper {
         <input
                 className="block__elem add-box-form__text hover-text"
                 name="weightField"
+                onBlur={[Function]}
                 onChange={[Function]}
                 type="text"
                 value={0}
+        />
+        <ErrorMessage
+                message="Weight must be a number and larger than 0"
+                validated={false}
+                visited={false}
         />
         <label
                 className="block__elem add-box-form__label"
@@ -53,9 +65,15 @@ ShallowWrapper {
         <input
                 className="block__elem add-box-form__color hover-pointer"
                 name="colorField"
+                onBlur={[Function]}
                 onChange={[Function]}
                 type="color"
                 value="#ffff00"
+        />
+        <ErrorMessage
+                message="Color can't be any shade of blue. Any. Shade. Of. Blue."
+                validated={true}
+                visited={false}
         />
         <label
                 className="block__elem add-box-form__label"
@@ -65,6 +83,7 @@ ShallowWrapper {
         <select
                 className="block__elem add-box-form__dropdown hover-pointer"
                 name="destinationField"
+                onBlur={[Function]}
                 onChange={[Function]}
                 value="sweden"
         >
@@ -93,6 +112,11 @@ ShallowWrapper {
                         Australia
                 </option>
         </select>
+        <ErrorMessage
+                message="Stop tinkering with HTML code and set correct destination"
+                validated={true}
+                visited={false}
+        />
         <input
                 className="block__elem add-box-form__submit hover-pointer"
                 disabled={true}
@@ -117,9 +141,15 @@ ShallowWrapper {
           <input
             className="block__elem add-box-form__text hover-text"
             name="nameField"
+            onBlur={[Function]}
             onChange={[Function]}
             type="text"
             value=""
+/>,
+          <ErrorMessage
+            message="Name can't be empty"
+            validated={false}
+            visited={false}
 />,
           <label
             className="block__elem add-box-form__label"
@@ -129,9 +159,15 @@ ShallowWrapper {
           <input
             className="block__elem add-box-form__text hover-text"
             name="weightField"
+            onBlur={[Function]}
             onChange={[Function]}
             type="text"
             value={0}
+/>,
+          <ErrorMessage
+            message="Weight must be a number and larger than 0"
+            validated={false}
+            visited={false}
 />,
           <label
             className="block__elem add-box-form__label"
@@ -141,9 +177,15 @@ ShallowWrapper {
           <input
             className="block__elem add-box-form__color hover-pointer"
             name="colorField"
+            onBlur={[Function]}
             onChange={[Function]}
             type="color"
             value="#ffff00"
+/>,
+          <ErrorMessage
+            message="Color can't be any shade of blue. Any. Shade. Of. Blue."
+            validated={true}
+            visited={false}
 />,
           <label
             className="block__elem add-box-form__label"
@@ -153,6 +195,7 @@ ShallowWrapper {
           <select
             className="block__elem add-box-form__dropdown hover-pointer"
             name="destinationField"
+            onBlur={[Function]}
             onChange={[Function]}
             value="sweden"
 >
@@ -181,6 +224,11 @@ ShallowWrapper {
                         Australia
             </option>
 </select>,
+          <ErrorMessage
+            message="Stop tinkering with HTML code and set correct destination"
+            validated={true}
+            visited={false}
+/>,
           <input
             className="block__elem add-box-form__submit hover-pointer"
             disabled={true}
@@ -212,6 +260,7 @@ ShallowWrapper {
           "props": Object {
             "className": "block__elem add-box-form__text hover-text",
             "name": "nameField",
+            "onBlur": [Function],
             "onChange": [Function],
             "type": "text",
             "value": "",
@@ -219,6 +268,19 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": "Name can't be empty",
+            "validated": false,
+            "visited": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -239,6 +301,7 @@ ShallowWrapper {
           "props": Object {
             "className": "block__elem add-box-form__text hover-text",
             "name": "weightField",
+            "onBlur": [Function],
             "onChange": [Function],
             "type": "text",
             "value": 0,
@@ -246,6 +309,19 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": "Weight must be a number and larger than 0",
+            "validated": false,
+            "visited": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -266,6 +342,7 @@ ShallowWrapper {
           "props": Object {
             "className": "block__elem add-box-form__color hover-pointer",
             "name": "colorField",
+            "onBlur": [Function],
             "onChange": [Function],
             "type": "color",
             "value": "#ffff00",
@@ -273,6 +350,19 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": "Color can't be any shade of blue. Any. Shade. Of. Blue.",
+            "validated": true,
+            "visited": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -319,6 +409,7 @@ ShallowWrapper {
             ],
             "className": "block__elem add-box-form__dropdown hover-pointer",
             "name": "destinationField",
+            "onBlur": [Function],
             "onChange": [Function],
             "value": "sweden",
           },
@@ -382,6 +473,19 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": "Stop tinkering with HTML code and set correct destination",
+            "validated": true,
+            "visited": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
           "nodeType": "host",
           "props": Object {
             "className": "block__elem add-box-form__submit hover-pointer",
@@ -416,9 +520,15 @@ ShallowWrapper {
           <input
                     className="block__elem add-box-form__text hover-text"
                     name="nameField"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     type="text"
                     value=""
+          />
+          <ErrorMessage
+                    message="Name can't be empty"
+                    validated={false}
+                    visited={false}
           />
           <label
                     className="block__elem add-box-form__label"
@@ -428,9 +538,15 @@ ShallowWrapper {
           <input
                     className="block__elem add-box-form__text hover-text"
                     name="weightField"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     type="text"
                     value={0}
+          />
+          <ErrorMessage
+                    message="Weight must be a number and larger than 0"
+                    validated={false}
+                    visited={false}
           />
           <label
                     className="block__elem add-box-form__label"
@@ -440,9 +556,15 @@ ShallowWrapper {
           <input
                     className="block__elem add-box-form__color hover-pointer"
                     name="colorField"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     type="color"
                     value="#ffff00"
+          />
+          <ErrorMessage
+                    message="Color can't be any shade of blue. Any. Shade. Of. Blue."
+                    validated={true}
+                    visited={false}
           />
           <label
                     className="block__elem add-box-form__label"
@@ -452,6 +574,7 @@ ShallowWrapper {
           <select
                     className="block__elem add-box-form__dropdown hover-pointer"
                     name="destinationField"
+                    onBlur={[Function]}
                     onChange={[Function]}
                     value="sweden"
           >
@@ -480,6 +603,11 @@ ShallowWrapper {
                               Australia
                     </option>
           </select>
+          <ErrorMessage
+                    message="Stop tinkering with HTML code and set correct destination"
+                    validated={true}
+                    visited={false}
+          />
           <input
                     className="block__elem add-box-form__submit hover-pointer"
                     disabled={true}
@@ -504,9 +632,15 @@ ShallowWrapper {
             <input
               className="block__elem add-box-form__text hover-text"
               name="nameField"
+              onBlur={[Function]}
               onChange={[Function]}
               type="text"
               value=""
+/>,
+            <ErrorMessage
+              message="Name can't be empty"
+              validated={false}
+              visited={false}
 />,
             <label
               className="block__elem add-box-form__label"
@@ -516,9 +650,15 @@ ShallowWrapper {
             <input
               className="block__elem add-box-form__text hover-text"
               name="weightField"
+              onBlur={[Function]}
               onChange={[Function]}
               type="text"
               value={0}
+/>,
+            <ErrorMessage
+              message="Weight must be a number and larger than 0"
+              validated={false}
+              visited={false}
 />,
             <label
               className="block__elem add-box-form__label"
@@ -528,9 +668,15 @@ ShallowWrapper {
             <input
               className="block__elem add-box-form__color hover-pointer"
               name="colorField"
+              onBlur={[Function]}
               onChange={[Function]}
               type="color"
               value="#ffff00"
+/>,
+            <ErrorMessage
+              message="Color can't be any shade of blue. Any. Shade. Of. Blue."
+              validated={true}
+              visited={false}
 />,
             <label
               className="block__elem add-box-form__label"
@@ -540,6 +686,7 @@ ShallowWrapper {
             <select
               className="block__elem add-box-form__dropdown hover-pointer"
               name="destinationField"
+              onBlur={[Function]}
               onChange={[Function]}
               value="sweden"
 >
@@ -568,6 +715,11 @@ ShallowWrapper {
                             Australia
               </option>
 </select>,
+            <ErrorMessage
+              message="Stop tinkering with HTML code and set correct destination"
+              validated={true}
+              visited={false}
+/>,
             <input
               className="block__elem add-box-form__submit hover-pointer"
               disabled={true}
@@ -599,6 +751,7 @@ ShallowWrapper {
             "props": Object {
               "className": "block__elem add-box-form__text hover-text",
               "name": "nameField",
+              "onBlur": [Function],
               "onChange": [Function],
               "type": "text",
               "value": "",
@@ -606,6 +759,19 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "message": "Name can't be empty",
+              "validated": false,
+              "visited": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -626,6 +792,7 @@ ShallowWrapper {
             "props": Object {
               "className": "block__elem add-box-form__text hover-text",
               "name": "weightField",
+              "onBlur": [Function],
               "onChange": [Function],
               "type": "text",
               "value": 0,
@@ -633,6 +800,19 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "message": "Weight must be a number and larger than 0",
+              "validated": false,
+              "visited": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -653,6 +833,7 @@ ShallowWrapper {
             "props": Object {
               "className": "block__elem add-box-form__color hover-pointer",
               "name": "colorField",
+              "onBlur": [Function],
               "onChange": [Function],
               "type": "color",
               "value": "#ffff00",
@@ -660,6 +841,19 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "message": "Color can't be any shade of blue. Any. Shade. Of. Blue.",
+              "validated": true,
+              "visited": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,
@@ -706,6 +900,7 @@ ShallowWrapper {
               ],
               "className": "block__elem add-box-form__dropdown hover-pointer",
               "name": "destinationField",
+              "onBlur": [Function],
               "onChange": [Function],
               "value": "sweden",
             },
@@ -765,6 +960,19 @@ ShallowWrapper {
               },
             ],
             "type": "select",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "message": "Stop tinkering with HTML code and set correct destination",
+              "validated": true,
+              "visited": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,

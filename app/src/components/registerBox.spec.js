@@ -4,7 +4,8 @@ import fetchMock from 'fetch-mock'
 import thunk from 'redux-thunk'
 import { mount, shallow, render } from 'enzyme';
 
-import { RegisterBox } from './RegisterBox';
+import { RegisterBox } from './registerBox';
+import ErrorMessage from './errorMEssage';
 import * as actions from './../actions/box';
 import * as types from './../constants/actionTypes';
 
@@ -12,9 +13,9 @@ const middlewares = [thunk]
 const mockStore = configureMockStore(middlewares);
 
 const mockBox = {
-  name: "Slim Shady",
+  name: "Bob",
   weight: 2,
-  color: "ffff00",
+  color: "#FFFF00",
   destination: "sweden",
   multiplier: 1.2,
   cost: 2.4
@@ -65,6 +66,7 @@ describe('RegisterBox', () => {
     const weightField = wrapper.find(".add-box-form__text").at(1);
 
     weightField.simulate("change", {target: {name: "weightField", value: value}});
+
     expect(wrapper.state('weightField').validated).toEqual(false);
   })
 
